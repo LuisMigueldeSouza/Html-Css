@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    padding: 59px;
+    margin: -9px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+main > p {
+    text-align: justify;
+}
+
+footer {
+    background-color: black;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+}
